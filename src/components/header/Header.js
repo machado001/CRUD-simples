@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-
 export const Header = () => {
   const [name, setName] = useState(`Visitante`);
 
   const changeName = () => {
+    
     setName();
   };
   return (
@@ -12,7 +12,11 @@ export const Header = () => {
       <h1>Kanban List</h1>
       <div className="salutation">
         <form>
-           Olá, <input type="text" name="" id="" value={name} disabled />
+          <span>Olá,</span>
+          <label onClick={changeName}>
+            <input type="text" name="" id="" value={name} disabled />
+            editar nome
+          </label>
         </form>
       </div>
     </div>

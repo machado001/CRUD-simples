@@ -1,10 +1,15 @@
 {
-    "To": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "todo": [
+      { "todo_id": 1, "title": "some task title", "description": "some task description" },
+      { "todo_id": 2, "title": "some task title", "description": "some task description" }
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+
+    "doing": [
+      { "do_id": 1, "title": "some task title", "description": "some task description" }
     ],
-    "profile": { "name": "Gabriel" }
+
+    "done":[ 
+      { "done_id": 1, "title": "some task title", "description": "some task description" }
+    ]
     
   }
