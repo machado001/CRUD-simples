@@ -1,15 +1,43 @@
 {
-    "todo": [
-      { "todo_id": 1, "title": "some task title", "description": "some task description" },
-      { "todo_id": 2, "title": "some task title", "description": "some task description" }
-    ],
-
-    "doing": [
-      { "do_id": 1, "title": "some task title", "description": "some task description" }
-    ],
-
-    "done":[ 
-      { "done_id": 1, "title": "some task title", "description": "some task description" }
-    ]
-    
-  }
+  "todo": [
+    {
+      "id": 1,
+      "title": "editing",
+      "description": "dsmd"
+    }
+  ],
+  "doing": [
+    {
+      "id": 1,
+      "title": "some task title",
+      "description": "some task description"
+    },
+    {
+      "title": "salve",
+      "description": ",,",
+      "id": 2
+    },
+    {
+      "title": "bunda fervida",
+      "description": "phineas e ferb",
+      "id": 3
+    }
+  ],
+  "done": [
+    {
+      "id": 1,
+      "title": "some task title",
+      "description": "some task description"
+    },
+    {
+      "title": "huhljnlbuhlj",
+      "description": "",
+      "id": 4
+    },
+    {
+      "title": "vargas",
+      "description": "g",
+      "id": 5
+    }
+  ]
+}

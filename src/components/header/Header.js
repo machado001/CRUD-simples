@@ -15,7 +15,7 @@ export const Header = () => {
           <span>Olá,</span>
           <label onClick={changeName}>
             <input type="text" name="" id="" value={name} disabled />
-            editar nome
+           <button></button>
           </label>
         </form>
       </div>

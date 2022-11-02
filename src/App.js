@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <p>Como estamos?</p>
       <Section name={sectionsName[0]} endpoint={endpointsApi[0]} />
       <Section name={sectionsName[1]} endpoint={endpointsApi[1]} />
       <Section name={sectionsName[2]} endpoint={endpointsApi[2]} />
