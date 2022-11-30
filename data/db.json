@@ -2,8 +2,8 @@
   "todo": [
     {
       "id": 1,
-      "title": "editing",
-      "description": "dsmd"
+      "title": "editei",
+      "description": "u"
     }
   ],
   "doing": [
@@ -11,11 +11,6 @@
       "id": 1,
       "title": "some task title",
       "description": "some task description"
-    },
-    {
-      "title": "salve",
-      "description": ",,",
-      "id": 2
     },
     {
       "title": "bunda fervida",

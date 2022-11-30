@@ -6,8 +6,8 @@ export const useFetch = (endpoint) => {
   const [data, setData] = useState(null);
   const [method, setMethod] = useState(null);
   const [config, setConfig] = useState(null);
-  const [callFetch, setCallFetch] = useState(false);
   const [itemId, setItemId] = useState(null);
+  const [callFetch, setCallFetch] = useState(false);
 
   const httpConfig = (data, method, dataId) => {
     if (method === `POST`) {
@@ -50,10 +50,12 @@ export const useFetch = (endpoint) => {
         const res = await fetch(`${url}/${endpoint}`);
         const json = await res.json();
         setData(json);
-      } catch (err) {}
+      } catch (err) {
+        throw err;
+      }
     };
     fetchData();
-  }, [endpoint, method, callFetch]);
+  }, [endpoint, method, callFetch,data]);
 
   //post
   useEffect(() => {
@@ -75,10 +77,6 @@ export const useFetch = (endpoint) => {
       if (method === "DELETE" || method === `PATCH`) {
         fetchFunction(`${url}/${endpoint}/${itemId}`);
       }
-      // if (method === "PATCH") {
-      //   fetchFunction(`${url}/${endpoint}/${itemId}`);
-      //   console.log(`ola`);
-      // }
     };
     httpRequest();
   }, [config, endpoint, method, itemId]);

@@ -1,0 +1,48 @@
+[33mcommit 18eda0cb6bcea55de385eed1d554d6edfda81807[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 31e993c 9e8b43b
+Author: machado001 <machadowg@gmail.com>
+Date:   Thu Nov 3 00:20:13 2022 -0300
+
+    Merge branch 'main' of https://github.com/machado001/CRUD-simples
+
+[33mcommit 31e993c998342603ed6445667a5aedd653134655[m
+Author: machado001 <machadowg@gmail.com>
+Date:   Wed Nov 2 16:35:40 2022 -0300
+
+    method patch added
+
+[33mcommit 9e8b43b0d248034fd3ca4a5234ec91afb41e3103[m
+Author: Gabriel Machado <101916850+machado001@users.noreply.github.com>
+Date:   Sun Oct 23 07:04:30 2022 -0300
+
+    Create README.md
+
+[33mcommit 75104a0559d3baa5e4957356cd0f9cec28522344[m
+Author: Gabriel Machado <101916850+machado001@users.noreply.github.com>
+Date:   Sun Oct 23 07:04:17 2022 -0300
+
+    Delete README.md
+
+[33mcommit cebff89b114db39275bf8f552ec0dd53a2ce6e35[m
+Author: machado001 <machadowg@gmail.com>
+Date:   Sat Oct 22 05:58:36 2022 -0300
+
+    committed
+
+[33mcommit ee849339d4d348d0ce1bf4427e78b08a626cc19f[m
+Author: machado001 <machadowg@gmail.com>
+Date:   Sat Oct 22 01:14:46 2022 -0300
+
+    new adds
+
+[33mcommit 1a03df5f6ae833612e5b538310615b0a884e9f0b[m
+Author: machado001 <machadowg@gmail.com>
+Date:   Fri Oct 21 03:31:42 2022 -0300
+
+    first commit
+
+[33mcommit ee039cb2b9308d19b8a262829ba1e7cfec4c2ff5[m
+Author: machado001 <machadowg@gmail.com>
+Date:   Fri Oct 21 03:28:44 2022 -0300
+
+    first commit
